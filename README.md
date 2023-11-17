@@ -49,7 +49,7 @@
 ![](https://github.com/yzcjd/sub-trans/blob/main/png/8.png?raw=true)
 
 
-### 可以直接用我的： sub-converter.yzcjd.workers.dev
+### 可以直接用我的： [已隐藏]
 
 ### 参考资料
 ##### 参考不良林教程 https://www.youtube.com/watch?v=X7CC5jrgazo
