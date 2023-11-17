@@ -7,7 +7,7 @@
 #### 1. Cloudflare 创建 Workers
 ① 进入 Cloudflare 控制面板，点击左侧导航栏 Workers & Pages，然后点击 Create Worker
 
-
+![](https://github.com/yzcjd/sub-trans/blob/main/png/1.png?raw=true)
 
 ② 输入 Worker 的名字，点击 Deploy
 
