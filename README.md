@@ -1,5 +1,11 @@
 ## Cloudflare Workers 实现订阅转换
 
+### 前言
+##### 普通订阅转换：【前端】浏览器 =>【后端】订阅转换站VPS。VPS上可以看到节点信息。
+##### Worker反代订阅转换：【前端】浏览器 =>【反向代理】Cloudflare Workers =>【后端】订阅转换站VPS
+CF-Workers看不到转换记录，用别人的 workers 也没有风险。（会消耗他的免费请求额度，勿滥用）
+通过CF-Workers反向代理+替换成乱码，后端得到不正确的节点信息。
+
 ### 需要物品：
 1. 别人的订阅转换站（如[肥羊](https://api.v1.mk)）
 2. Cloudflare
@@ -17,7 +23,7 @@
 
 ![](https://github.com/yzcjd/sub-trans/blob/main/png/3.png?raw=true)
 
-④ 在左侧编辑器输入代码后，点击右上角的 Save and deploy 即可
+④ 在左侧编辑器输入代码后，点击右上角 Save and deploy
 
 ![](https://github.com/yzcjd/sub-trans/blob/main/png/4.png?raw=true)
 
