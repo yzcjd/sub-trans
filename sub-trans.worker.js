@@ -2929,7 +2929,7 @@ var src_default = {
         return new Response('Failed to fetch frontend', { status: response.status });
       }
       const originalHtml = await response.text();
-      const modifiedHtml = originalHtml.replace(/https:\/\/sub-converter.yzcjd\.dev/, host);
+      const modifiedHtml = originalHtml.replace(/https:\/\/bulianglin2023\.dev/, host);
       return new Response(modifiedHtml, {
         status: 200,
         headers: {
